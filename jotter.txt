@@ -1,0 +1,31 @@
+first things first, we do the installation of
+init
+express
+ejs
+body-parser
+
+2)the MVC stands for 
+model, view, controller(for data manipulation)
+
+3)we need to creat a controller for the todo list app that will control the things to be done by the app
+ we create a folder called controller and a file named todo.js
+ manipulate the data and handle the route
+
+ 4)we link our jquery later on when we want to start using our AJAX request
+ sonwe can just go online and get our jquery version
+ 
+ 5)we put the values to be displayed into an array in the data control page 
+ and call themm using a for loop in the display page
+
+ the ajax is used for making request
+ note that the data will clear when we refresh beacuse it is stored on a server and not a db
+ 
+ 6)The db we will be using is Mongo db
+ we use a hosted website called mlap where we can host, crud our data using the cloud
+ we can use mlab to store our json object and we can intaract with those json object
+ to do this we use a package called mongoose, which is used to intaract with the json object
+
+ we use this npm install mongoose -save
+
+
+ 7)MONGOOSE.This is an ORM.this is the layer above mongodb. it allows us talk to the db without having to write
